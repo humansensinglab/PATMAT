@@ -18,7 +18,7 @@ PATMAT enables personalization of Mask-Aware Transformer model, provided refrenc
 </p>
 
 ## Description   
-Our twofold steps; PAT and MAT build extensively on Pivot Tuning (PTI) paper + code and MAT paper + code. 
+Our two-step framework; PAT and MAT build extensively on Pivot Tuning's (PTI) paper + code and MAT's paper + code. 
 ## Getting Started
 
 ### Prerequisites
