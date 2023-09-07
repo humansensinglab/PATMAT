@@ -38,7 +38,7 @@ Our two-step framework; PAT and MAT build extensively on Pivot Tuning's (PTI) pa
 ## Pretrained Models
 Please download the pretrained models from the following links.
 
-### Auxiliary Models
+### Auxiliary Models for PAT
 various auxiliary models needed for PAT inversion task.  
 This includes the StyleGAN generator and pre-trained models used for loss computation.
 | Path | Description
@@ -47,7 +47,8 @@ This includes the StyleGAN generator and pre-trained models used for loss comput
 |[Dlib alignment](https://drive.google.com/file/d/1HKmjg6iXsWr4aFPuU0gBXPGR83wqMzq7/view?usp=sharing) | Dlib alignment used for images preproccessing.
 |[FFHQ e4e encoder](https://drive.google.com/file/d/1ALC5CLA89Ouw40TwvxcwebhzWXM5YSCm/view?usp=sharing) | Pretrained e4e encoder. Used for StyleCLIP editing.
 | Glinnt360k can be downloaded from this link: https://drive.google.com/file/d/1pRDYnndOUemVrZaFV6ZGpH3eQowQpQlL/view?usp=sharing |
-
+### Auxiliary Models for MAT
+MAT repo provides models trained on CelebA-HQ, FFHQ and Places365-Standard at 512x512 resolution. Download models from [One Drive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155137927_link_cuhk_edu_hk/EuY30ziF-G5BvwziuHNFzDkBVC6KBPRg69kCeHIu-BXORA?e=7OwJyE) and put them into the 'pretrained' directory. 
 Note: The StyleGAN model is used directly from the official [stylegan2-ada-pytorch implementation](https://github.com/NVlabs/stylegan2-ada-pytorch).
 For StyleCLIP pretrained mappers, please see [StyleCLIP's official routes](https://github.com/orpatashnik/StyleCLIP/blob/main/utils.py)
 
