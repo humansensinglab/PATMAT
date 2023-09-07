@@ -70,3 +70,34 @@ To inpaint desired images after tuning your network with PAT, you can run:
     python generate_image.py --network model_path --dpath data_path --refpath reference_path --outdir out_path [--mpath mask_path]
 ```
 where ```model_path``` is the path to PAT's output model and ```reference_path``` is a few reference images of the identity you are inpainting (*can be a subset of PAT's training data).
+
+## Credits
+
+**Pivot Tuning and implementation:**  
+[https://github.com/richzhang/PerceptualSimilarity ](https://github.com/danielroich/PTI) 
+
+**MAT model and implementation:**   
+[https://github.com/omertov/encoder4editin](https://github.com/fenglinglwb/MAT)g
+
+**StyleGAN2-ada model and implementation:**  
+https://github.com/NVlabs/stylegan2-ada-pytorch
+Copyright © 2021, NVIDIA Corporation.  
+Nvidia Source Code License https://nvlabs.github.io/stylegan2-ada-pytorch/license.html
+
+## Acknowledgments
+This repository structure is based on MAT and Pivot Tuning
+
+## Contact
+For any inquiry please contact us at our email addresses: sam(dot)motamed(at)insait(dot)ai
+
+
+## Citation
+If you use this code for your research, please cite:
+```
+@article{motamed2023patmat,
+  title={PATMAT: Person Aware Tuning of Mask-Aware Transformer for Face Inpainting},
+  author={Motamed, Saman and Xu, Jianjin and Wu, Chen Henry and De la Torre, Fernando},
+  journal={arXiv preprint arXiv:2304.06107},
+  year={2023}
+}
+```
