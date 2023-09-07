@@ -11,13 +11,9 @@ We demonstrate that PATMAT outperforms state-of-the-art models in terms of image
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
 
 <p align="center">
-<img src="docs/patmat_teaser"/>  
+<img src="docs/patmat-teaser.jpg"/>  
 <br>
-Pivotal Tuning Inversion (PTI) enables employing off-the-shelf latent based
-semantic editing techniques on real images using StyleGAN. 
-PTI excels in identity preserving edits, portrayed through recognizable figures —
-Serena Williams and Robert Downey Jr. (top), and in handling faces which
-are clearly out-of-domain, e.g., due to heavy makeup (bottom).
+PATMAT enables personalization of MAsk-AWare Transformer model, provided refrence images of a face.
 </br>
 </p>
 
