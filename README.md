@@ -21,11 +21,6 @@ PATMAT enables personalization of Mask-Aware Transformer model, provided refrenc
 Our two-step framework; PAT and MAT build extensively on Pivot Tuning's (PTI) paper + code and MAT's paper + code. 
 ## Getting Started
 
-### Prerequisites
-- Linux or macOS
-- NVIDIA GPU + CUDA CuDNN (Not mandatory bur recommended)
-- Python 3
-
 ### Installation
 1. Clone the repository.
     ```shell
