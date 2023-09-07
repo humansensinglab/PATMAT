@@ -17,9 +17,9 @@ import math
 import random
 #from datasets.mask_generator_512 import RandomMask
 from utils.models_utils import toogle_grad, load_old_G, load_old_D
-mpath = './segmentation'
+#mpath = './segmentation'
 #mask_list = sorted(glob.glob(mpath + '/*.png') + glob.glob(mpath + '/*.jpg') + glob.glob(mpath + '/*.JPG'))
-mask = cv2.imread('./segmentation/3.png', cv2.IMREAD_GRAYSCALE).astype(np.float32) / 255.0
+#mask = cv2.imread('./segmentation/3.png', cv2.IMREAD_GRAYSCALE).astype(np.float32) / 255.0
 #print("mask shape",  mask.shape)
 mask = cv2.resize(mask, dsize=(512,512))
 
