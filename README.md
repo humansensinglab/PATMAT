@@ -7,7 +7,7 @@ incorporating reference images of a subject and fine-tuning a MAT architecture t
 using the fixed anchors to adapt the model to a new face identity. Moreover, PATMAT's use of multiple images per anchor during training allows the model to use fewer reference images than competing methods.
 We demonstrate that PATMAT outperforms state-of-the-art models in terms of image quality, the preservation of person-specific details, and the identity of the subject. Our results suggest that PATMAT can be a promising approach for improving the quality of personalized face inpainting. -->
 
-<a href="https://arxiv.org/abs/2212.04488"><img src="https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg"></a>
+<a href="https://arxiv.org/abs/2304.06107"><img src="https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
 
 <p align="center">
