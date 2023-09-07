@@ -1,4 +1,4 @@
-# PATMAT Person Aware Tuning of MAsk Aware Transformer for FAce Inpainting    (ICCV 2023)
+# PATMAT Person Aware Tuning of Mask Aware Transformer for Face Inpainting    (ICCV 2023)
 
 <!-- > Generative models such as StyleGAN2 and Stable Diffusion have achieved state-of-the-art performance in computer vision tasks such as image synthesis, inpainting, and de-noising. However, 
 current generative models for face inpainting often fail to preserve fine facial details and the identity of the person, despite creating aesthetically convincing image structures and textures.
@@ -13,7 +13,7 @@ We demonstrate that PATMAT outperforms state-of-the-art models in terms of image
 <p align="center">
 <img src="docs/patmat-teaser.jpg"/>  
 <br>
-PATMAT enables personalization of MAsk-AWare Transformer model, provided refrence images of a face.
+PATMAT enables personalization of Mask-Aware Transformer model, provided refrence images of a face.
 </br>
 </p>
 
