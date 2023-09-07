@@ -55,3 +55,18 @@ For StyleCLIP pretrained mappers, please see [StyleCLIP's official routes](https
 
 By default, we assume that all auxiliary models are downloaded and saved to the directory `pretrained_models`. 
 However, you may use your own paths by changing the necessary values in `configs/path_configs.py`. 
+
+
+### Running PAT
+The main training script is `PAT/scripts/run_pat.py`. The script receives aligned and cropped images from paths configured in the "Input info" subscetion in
+ `configs/paths_config.py` where you can also find out about the data structure and file naming convention. I am hoping to make thgis step more user friendly but for now please bear with me.
+Results are saved to directories found at "Dirs for output files" under `configs/paths_config.py`. This includes inversion latent codes and tuned generators. 
+The hyperparametrs for the inversion task can be found at  `configs/hyperparameters.py`.
+
+
+### Running MAT
+To inpaint desired images after tuning your network with PAT, you can run:
+```shell
+    python generate_image.py --network model_path --dpath data_path --refpath reference_path --outdir out_path [--mpath mask_path]
+```
+where ```model_path``` is the path to PAT's output model and ```reference_path``` is a few reference images of the identity you are inpainting (*can be a subset of PAT's training data).
