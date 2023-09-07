@@ -11,7 +11,7 @@ We demonstrate that PATMAT outperforms state-of-the-art models in terms of image
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>  
 
 <p align="center">
-<img src="docs/teaser.jpg"/>  
+<img src="docs/patmat_teaser"/>  
 <br>
 Pivotal Tuning Inversion (PTI) enables employing off-the-shelf latent based
 semantic editing techniques on real images using StyleGAN. 
