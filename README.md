@@ -27,14 +27,18 @@ Our two-step framework; PAT and MAT build extensively on Pivot Tuning's (PTI) pa
 - Python 3
 
 ### Installation
-- Dependencies:  
-	1. lpips
-	2. wandb
-	3. pytorch
-	4. torchvision
-	5. matplotlib
-	6. dlib
-- All dependencies can be installed using *pip install* and the package name
+1. Clone the repository.
+    ```shell
+    git clone https://github.com/humansensinglab/PATMAT
+    ```
+2. Install the dependencies.
+    - Python 3.7
+    - PyTorch 1.7.1
+    - Cuda 11.0
+    - Other packages
+    ```shell
+    pip install -r requirements.txt
+    ```
 
 ## Pretrained Models
 Please download the pretrained models from the following links.
