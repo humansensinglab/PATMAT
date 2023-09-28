@@ -94,10 +94,12 @@ For any inquiry please contact us at our email addresses: sam(dot)motamed(at)ins
 ## Citation
 If you use this code for your research, please cite:
 ```
-@article{motamed2023patmat,
-  title={PATMAT: Person Aware Tuning of Mask-Aware Transformer for Face Inpainting},
-  author={Motamed, Saman and Xu, Jianjin and Wu, Chen Henry and De la Torre, Fernando},
-  journal={arXiv preprint arXiv:2304.06107},
-  year={2023}
+@InProceedings{Motamed_2023_ICCV,
+    author    = {Motamed, Saman and Xu, Jianjin and Wu, Chen Henry and H\"ane, Christian and Bazin, Jean-Charles and De la Torre, Fernando},
+    title     = {PATMAT: Person Aware Tuning of Mask-Aware Transformer for Face Inpainting},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {22778-22787}
 }
 ```
