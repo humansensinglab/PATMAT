@@ -409,8 +409,8 @@ class MultiIDCoach(BaseCoach):
                 mask = RandomMask(512) # adjust the masking ratio by using 'hole_range'
                 mask = torch.from_numpy(mask).float().to(global_config.device).unsqueeze(0)
                 data, w_celeb = celeb_im_w_pair[celeb_rand_idx]
-                z_samples1 = np.random.randn(1, self.G.z_dim)
-                w_samples1 = self.G.mapping(torch.from_numpy(z_samples1).to(global_config.device), c=None)
+                z_samples = np.random.randn(1, self.G.z_dim)
+                w_samples = self.G.mapping(torch.from_numpy(z_samples).to(global_config.device), c=None)
                 w_celeb = w_samples1
                 celeb_name, image_to_use = data
                 #print(next(self.G.parameters()).is_cuda)
